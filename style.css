@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("assets/background.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+nav {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800px;
+  font-size: 0.8rem;
+  margin: 0%;
+  padding: 0.8rem;
+}
+nav li {
+  list-style-type: none;
+}
+nav img {
+  max-width: 2.4rem;
+}
+
+.center-piece {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 15%;
+  margin-left: 15%;
+  background-color: black;
+}
+.center-piece h1 {
+  color: #FD7D54;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  letter-spacing: 0.3em;
+  margin-top: 20%;
+  text-align: center;
+}
+.center-piece h2 {
+  color: white;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  margin-top: 4%;
+}
+
+.three-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.matte, .semigloss, .highgloss {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  max-width: 19%;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 5%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 7%;
+  padding: 2% 1%;
+}
+.matte img, .semigloss img, .highgloss img {
+  position: relative;
+  max-width: 4.6rem;
+  max-height: 4.6rem;
+  margin-bottom: 15%;
+}
+.matte h3, .semigloss h3, .highgloss h3 {
+  position: relative;
+  font-weight: 800;
+  font-size: 1.2rem;
+  text-align: center;
+  letter-spacing: 0.18em;
+  margin-bottom: 5%;
+}
+.matte h3::after, .semigloss h3::after, .highgloss h3::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 15px;
+  height: 2px;
+  bottom: -10px;
+  background-color: white;
+  margin-left: 45%;
+}
+.matte p, .semigloss p, .highgloss p {
+  max-width: 90%;
+  font-weight: 600;
+  font-size: 0.9em;
+  text-align: center;
+  margin-top: 15%;
+}
+.matte input, .semigloss input, .highgloss input {
+  border: none;
+  background-color: black;
+}
+.matte label, .semigloss label, .highgloss label {
+  font-size: 0.8rem;
+  text-align: center;
+  letter-spacing: 0.12em;
+  font-weight: 800;
+  margin-top: 10%;
+  margin-bottom: 3%;
+  color: #41C3F6;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.6rem;
+  height: 2.2rem;
+  background-color: black;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}/*# sourceMappingURL=style.css.map */
